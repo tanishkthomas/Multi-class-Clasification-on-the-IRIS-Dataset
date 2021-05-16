@@ -78,6 +78,3 @@ print(cm)
 # accuracy_score(Y_test, Y_pred)
 # Out[23]: 0.9833333333333333
 cr6040 = classification_report(Y_test, Y_pred)
-
-fpr, tpr, thresh = roc_curve(Y_test, Y_pred)
-
